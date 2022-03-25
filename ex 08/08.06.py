@@ -10,6 +10,5 @@ while numb != "Done":
         try:
             numb=int(numb)
             include.append(numb)
-            print(include)
         except:
             print("not a number")
