@@ -28,7 +28,7 @@ while True:
     vtoroe[r2]
     salat[rsal]
     print(vtoroe[r2], "- второе и салат - ", salat[rsal])
-    input("Если хочешь другое, нажми Enter:)")
+    input("Если хочешь другое, нажми Enter: )")
     #random.randint(A, B) - случайное целое число N, A ≤ N ≤ B.
     #dict.get(key[, default]) - возвращает значение ключа, но если его нет,
     #не бросает исключение, а возвращает default (по умолчанию None).
