@@ -17,6 +17,7 @@ for line in op:
     words = line.split() #split lanes as words
 #['From', 'rjlowe@iupui.edu', 'Fri', 'Jan', '4', '14:50:18', '2008']
     words=words[5]
+    #14:50:18
     words = words.split(":")
     words=words[0]
     count[words]=count.get(words,0)+1 #we add to dictionary word and the count
