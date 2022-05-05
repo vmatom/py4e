@@ -14,6 +14,7 @@ tmp=list()
 for (k,v) in c.items():
     tmp.append((v,k))#ATTENTION we change the order of k and v,
     #it needed to sort by values not keys
+    print(k,v)
 print (tmp)
 tmp=sorted(tmp,reverse=True)
 print (tmp)
@@ -25,3 +26,4 @@ di=dict()
 print (sorted([(v,k) for k,v in e.items()]))
 di=sorted([(v,k) for k,v in e.items()])
 print(di)
+type(di)
