@@ -15,7 +15,7 @@ try:
     for line in fhand:
         words = line.decode().split()
         line = line.decode().rstrip()
-        text = text+line
+        text += line
         counts_word = counts_word+len(words)-1
         for word in words:
             characters = word
