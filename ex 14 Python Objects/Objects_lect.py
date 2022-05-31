@@ -1,4 +1,4 @@
-
+# https://www.py4e.com/html3/14-objects
 class PartyAnimal:  # class is the type of objective
     x = 0  # parameters
     name = ''  # parameters
